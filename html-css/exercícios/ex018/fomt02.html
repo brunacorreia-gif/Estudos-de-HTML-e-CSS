@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+        @font-face {
+            font-family: 'love larry';
+            src: url(fontes/love\ larry.ttf) format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+            Tipos de format()
+            - opentype (.otf)
+            - truetype (.ttf)       
+            - embedded opentype (.eot)
+            - truetype aat (.ttc)
+            - svg (.svg)
+
+            */
+        }
+        body {
+            font-family: "Berkshire Swash", serif;
+        }
+
+        h1 {
+            font-family: 'love larry', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni veritatis, nostrum corrupti nihil id vitae vel commodi voluptatum distinctio culpa officiis, maxime, reiciendis mollitia quisquam temporibus deleniti tempora error nam.</p>
+    
+</body>
+</html>
